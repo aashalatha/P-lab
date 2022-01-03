@@ -1,2 +1,5 @@
 string = input("Enter a string:")
-print("String after replacing:",string[0]+string[1::].replace(string[0],'$'))
+str2 = input("Enter second string:")
+
+str3 = str2[:2]+str1[2:]+" "+str1[:2]+str2[2:]
+print(str3)
