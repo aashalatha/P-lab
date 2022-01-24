@@ -11,11 +11,11 @@ CYCLE - I
 9. Write a python program to merge two dictionaries.
 10. Write a python program to find gcd of 2 numbers.
 
-CYCLE - II
+CYCLE - II 
 11. Write a python program to generate a positive list of numbers from a given list of integers using List comprehensions.
 12. Write a python program to form a list of vowels selected from a given word using List comprehensions.
 13. Write a python program to accept a file name from the user and print extension of that.
-14. Write a python program to create a single string separated with space from two strings by swapping the character at position 1.
+14. Write a python program to create a single string separated with space from twostrings by swapping the character at position 1.
 15. Write a python program to get a string from an input string where all occurrences of the first character are replaced with ‘$’, except the first character.[eg: onion -> oni$n]
 16. Write a python program to count the occurrences of each word in a line of text.
 17. Write a python program to check whether a given year is a leap year or not.
