@@ -1,10 +1,19 @@
 class Rectangle:
-    def __init__(self, x =0 , y = 0 ):
-        self.x = x
-        self.y = y
-        print(self.x,self.y)
+    def __init__(self, length, width):
+        self.__length = length  #double underscore makes it private
+        self.__width = width
+        self.area = length*width
     
-    #def __str__(self):
-     #   return "({0},{1})".format(self.x,self.y)
+    def __gt__(self, a):
+        if(self.area>a.area):
+            return True
+        else:
+            return False
 
-r = Rectangle(2,3)
+ob1 = Rectangle(2,3)
+ob2 = Rectangle(3,4)
+
+if(ob1>ob2):
+    print("Area of Rectangle 1 is greater than Rectangle 2")
+else:
+    print("Area of Rectangle 2 is greater than Rectangle 1")
